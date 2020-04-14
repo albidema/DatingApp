@@ -1,4 +1,4 @@
-import { photo } from './photo';
+import { Photo } from './photo';
 
 export interface User {
     id: number;
@@ -14,5 +14,5 @@ export interface User {
     interests?: string;
     introduction?: string;
     lookingFor?: string;
-    photos?: photo[];
+    photos?: Photo[];
 }

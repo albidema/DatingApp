@@ -1,7 +1,7 @@
-export interface photo {
+export interface Photo {
     id: number;
     url: string;
     description: string;
-    dataAdded: Date;
+    dateAdded: Date;
     isMain: boolean;
 }
